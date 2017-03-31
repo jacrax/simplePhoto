@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		43DBD43C1E8DFFDB00EB16C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DBD43B1E8DFFDB00EB16C1 /* AppDelegate.swift */; };
-		43DBD43E1E8DFFDB00EB16C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DBD43D1E8DFFDB00EB16C1 /* ViewController.swift */; };
 		43DBD4411E8DFFDB00EB16C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43DBD43F1E8DFFDB00EB16C1 /* Main.storyboard */; };
 		43DBD4431E8DFFDB00EB16C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43DBD4421E8DFFDB00EB16C1 /* Assets.xcassets */; };
 		43DBD4461E8DFFDB00EB16C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43DBD4441E8DFFDB00EB16C1 /* LaunchScreen.storyboard */; };
 		43DBD4511E8DFFDB00EB16C1 /* galpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DBD4501E8DFFDB00EB16C1 /* galpTests.swift */; };
 		43DBD45C1E8DFFDB00EB16C1 /* galpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DBD45B1E8DFFDB00EB16C1 /* galpUITests.swift */; };
+		43DBD46A1E8E097800EB16C1 /* CRTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DBD4691E8E097800EB16C1 /* CRTableViewController.swift */; };
+		43DBD46C1E8E099700EB16C1 /* Folders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DBD46B1E8E099700EB16C1 /* Folders.swift */; };
+		43DBD46E1E8E0AB400EB16C1 /* CRTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DBD46D1E8E0AB400EB16C1 /* CRTableViewCell.swift */; };
+		43DBD4701E8E177200EB16C1 /* CRCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DBD46F1E8E177200EB16C1 /* CRCollectionViewController.swift */; };
+		43DBD4721E8E380B00EB16C1 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DBD4711E8E380B00EB16C1 /* GalleryViewController.swift */; };
+		9A60244593BE90C0A91CBF19 /* Pods_galp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86ACE79E86C94C51EAF2A976 /* Pods_galp.framework */; };
+		BE43BD857E42A2DA18E3F6B7 /* Pods_galpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7095C9E80BD66880BA77DBD2 /* Pods_galpUITests.framework */; };
+		C5638B7F84C00A07E2A7F1DB /* Pods_galpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3F1E6F9BEA4BF241DE5FC0 /* Pods_galpTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AB7C97309CB675B72F8640A /* Pods-galp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-galp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-galp/Pods-galp.debug.xcconfig"; sourceTree = "<group>"; };
 		43DBD4381E8DFFDB00EB16C1 /* galp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = galp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43DBD43B1E8DFFDB00EB16C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43DBD43D1E8DFFDB00EB16C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43DBD4401E8DFFDB00EB16C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43DBD4421E8DFFDB00EB16C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43DBD4451E8DFFDB00EB16C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,19 @@
 		43DBD4571E8DFFDB00EB16C1 /* galpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = galpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43DBD45B1E8DFFDB00EB16C1 /* galpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = galpUITests.swift; sourceTree = "<group>"; };
 		43DBD45D1E8DFFDB00EB16C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43DBD4691E8E097800EB16C1 /* CRTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRTableViewController.swift; sourceTree = "<group>"; };
+		43DBD46B1E8E099700EB16C1 /* Folders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Folders.swift; sourceTree = "<group>"; };
+		43DBD46D1E8E0AB400EB16C1 /* CRTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRTableViewCell.swift; sourceTree = "<group>"; };
+		43DBD46F1E8E177200EB16C1 /* CRCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRCollectionViewController.swift; sourceTree = "<group>"; };
+		43DBD4711E8E380B00EB16C1 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		60754437B589508D3E799568 /* Pods-galpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-galpTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-galpTests/Pods-galpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7095C9E80BD66880BA77DBD2 /* Pods_galpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_galpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86ACE79E86C94C51EAF2A976 /* Pods_galp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_galp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		959FA439B0DD58E105ACD6E5 /* Pods-galp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-galp.release.xcconfig"; path = "Pods/Target Support Files/Pods-galp/Pods-galp.release.xcconfig"; sourceTree = "<group>"; };
+		9DBE464AE049CD2BA8D277F9 /* Pods-galpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-galpTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-galpTests/Pods-galpTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD4BAA2B993233AD1C09987A /* Pods-galpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-galpUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-galpUITests/Pods-galpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDB1967AB290967060985975 /* Pods-galpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-galpUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-galpUITests/Pods-galpUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CE3F1E6F9BEA4BF241DE5FC0 /* Pods_galpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_galpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A60244593BE90C0A91CBF19 /* Pods_galp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5638B7F84C00A07E2A7F1DB /* Pods_galpTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE43BD857E42A2DA18E3F6B7 /* Pods_galpUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,8 @@
 				43DBD44F1E8DFFDB00EB16C1 /* galpTests */,
 				43DBD45A1E8DFFDB00EB16C1 /* galpUITests */,
 				43DBD4391E8DFFDB00EB16C1 /* Products */,
+				E05D4EA39375C4E3CA486A9B /* Pods */,
+				6CA341ABBDA0D088D94E25DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +123,15 @@
 			isa = PBXGroup;
 			children = (
 				43DBD43B1E8DFFDB00EB16C1 /* AppDelegate.swift */,
-				43DBD43D1E8DFFDB00EB16C1 /* ViewController.swift */,
 				43DBD43F1E8DFFDB00EB16C1 /* Main.storyboard */,
 				43DBD4421E8DFFDB00EB16C1 /* Assets.xcassets */,
 				43DBD4441E8DFFDB00EB16C1 /* LaunchScreen.storyboard */,
 				43DBD4471E8DFFDB00EB16C1 /* Info.plist */,
+				43DBD4691E8E097800EB16C1 /* CRTableViewController.swift */,
+				43DBD46B1E8E099700EB16C1 /* Folders.swift */,
+				43DBD46D1E8E0AB400EB16C1 /* CRTableViewCell.swift */,
+				43DBD46F1E8E177200EB16C1 /* CRCollectionViewController.swift */,
+				43DBD4711E8E380B00EB16C1 /* GalleryViewController.swift */,
 			);
 			path = galp;
 			sourceTree = "<group>";
@@ -125,6 +154,29 @@
 			path = galpUITests;
 			sourceTree = "<group>";
 		};
+		6CA341ABBDA0D088D94E25DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86ACE79E86C94C51EAF2A976 /* Pods_galp.framework */,
+				CE3F1E6F9BEA4BF241DE5FC0 /* Pods_galpTests.framework */,
+				7095C9E80BD66880BA77DBD2 /* Pods_galpUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E05D4EA39375C4E3CA486A9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AB7C97309CB675B72F8640A /* Pods-galp.debug.xcconfig */,
+				959FA439B0DD58E105ACD6E5 /* Pods-galp.release.xcconfig */,
+				60754437B589508D3E799568 /* Pods-galpTests.debug.xcconfig */,
+				9DBE464AE049CD2BA8D277F9 /* Pods-galpTests.release.xcconfig */,
+				CD4BAA2B993233AD1C09987A /* Pods-galpUITests.debug.xcconfig */,
+				CDB1967AB290967060985975 /* Pods-galpUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43DBD4601E8DFFDB00EB16C1 /* Build configuration list for PBXNativeTarget "galp" */;
 			buildPhases = (
+				62211F23CE426ED80A8016AA /* [CP] Check Pods Manifest.lock */,
 				43DBD4341E8DFFDB00EB16C1 /* Sources */,
 				43DBD4351E8DFFDB00EB16C1 /* Frameworks */,
 				43DBD4361E8DFFDB00EB16C1 /* Resources */,
+				1AA99977345E0A264E6B27AD /* [CP] Embed Pods Frameworks */,
+				E7FA0DE0D36141ACE4742248 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43DBD4631E8DFFDB00EB16C1 /* Build configuration list for PBXNativeTarget "galpTests" */;
 			buildPhases = (
+				81D26691525352804196E947 /* [CP] Check Pods Manifest.lock */,
 				43DBD4481E8DFFDB00EB16C1 /* Sources */,
 				43DBD4491E8DFFDB00EB16C1 /* Frameworks */,
 				43DBD44A1E8DFFDB00EB16C1 /* Resources */,
+				A3501378E7AB3D65280A0942 /* [CP] Embed Pods Frameworks */,
+				9A825A483AE49E4C35DC5E7E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43DBD4661E8DFFDB00EB16C1 /* Build configuration list for PBXNativeTarget "galpUITests" */;
 			buildPhases = (
+				9A98B4D736E2EE45B7FAA415 /* [CP] Check Pods Manifest.lock */,
 				43DBD4531E8DFFDB00EB16C1 /* Sources */,
 				43DBD4541E8DFFDB00EB16C1 /* Frameworks */,
 				43DBD4551E8DFFDB00EB16C1 /* Resources */,
+				642360F59739A34D06E706D5 /* [CP] Embed Pods Frameworks */,
+				AA47966E0F750F7D51CC627D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +318,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AA99977345E0A264E6B27AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-galp/Pods-galp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62211F23CE426ED80A8016AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		642360F59739A34D06E706D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-galpUITests/Pods-galpUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81D26691525352804196E947 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A825A483AE49E4C35DC5E7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-galpTests/Pods-galpTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A98B4D736E2EE45B7FAA415 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3501378E7AB3D65280A0942 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-galpTests/Pods-galpTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA47966E0F750F7D51CC627D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-galpUITests/Pods-galpUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7FA0DE0D36141ACE4742248 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-galp/Pods-galp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		43DBD4341E8DFFDB00EB16C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43DBD43E1E8DFFDB00EB16C1 /* ViewController.swift in Sources */,
+				43DBD46E1E8E0AB400EB16C1 /* CRTableViewCell.swift in Sources */,
+				43DBD46A1E8E097800EB16C1 /* CRTableViewController.swift in Sources */,
+				43DBD4701E8E177200EB16C1 /* CRCollectionViewController.swift in Sources */,
+				43DBD4721E8E380B00EB16C1 /* GalleryViewController.swift in Sources */,
+				43DBD46C1E8E099700EB16C1 /* Folders.swift in Sources */,
 				43DBD43C1E8DFFDB00EB16C1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,10 +618,12 @@
 		};
 		43DBD4611E8DFFDB00EB16C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AB7C97309CB675B72F8640A /* Pods-galp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HA77ZG9NUV;
 				INFOPLIST_FILE = galp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cr.galp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,10 +633,12 @@
 		};
 		43DBD4621E8DFFDB00EB16C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 959FA439B0DD58E105ACD6E5 /* Pods-galp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HA77ZG9NUV;
 				INFOPLIST_FILE = galp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cr.galp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +648,7 @@
 		};
 		43DBD4641E8DFFDB00EB16C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60754437B589508D3E799568 /* Pods-galpTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +664,7 @@
 		};
 		43DBD4651E8DFFDB00EB16C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DBE464AE049CD2BA8D277F9 /* Pods-galpTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +680,7 @@
 		};
 		43DBD4671E8DFFDB00EB16C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4BAA2B993233AD1C09987A /* Pods-galpUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = HA77ZG9NUV;
@@ -485,6 +695,7 @@
 		};
 		43DBD4681E8DFFDB00EB16C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDB1967AB290967060985975 /* Pods-galpUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = HA77ZG9NUV;
@@ -516,6 +727,7 @@
 				43DBD4621E8DFFDB00EB16C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43DBD4631E8DFFDB00EB16C1 /* Build configuration list for PBXNativeTarget "galpTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +736,7 @@
 				43DBD4651E8DFFDB00EB16C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43DBD4661E8DFFDB00EB16C1 /* Build configuration list for PBXNativeTarget "galpUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +745,7 @@
 				43DBD4681E8DFFDB00EB16C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
